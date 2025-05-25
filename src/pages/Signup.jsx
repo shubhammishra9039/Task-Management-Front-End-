@@ -63,7 +63,7 @@ function Signup() {
       navigate("/");
     },
     onError: (error) => {
-      console.log(error,"this is");
+      console.log(error,"this ");
       toast.error(
         error.response?.data?.message || "An error occurred during signup"
       );
